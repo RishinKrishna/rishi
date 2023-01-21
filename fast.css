@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.main {
+    background-image: url(Imeges/12photo.png);
+    background-size: cover;
+    height: 100vh;
+    color:#fff;
+}
+.demo-btn{
+    color: #fff;
+    background: transparent;
+}
+.domo-nav{
+    color: #fff;
+}
+.logo{
+    width: 8em;
+}
+.condent h1{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 3%;
+}
+.sub-condent{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.main-button{
+    width: 200px;
+    height: 50px;
+    border: #fff;
+}
+.heading{
+    font-weight: 900;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.card{
+    width: 16em;
+    height: 21em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 1px rgba(0.2, 0.2, 0.2, 0.2);
+}
+.card-img-top{
+    width: 120px;
+    text-align:center;
+    margin: auto;
+}
+.card-text{
+    padding: 15px;
+}
+.card-2-img-top{
+    width: 110px;
+    text-align:center;
+    margin: auto;
+}
+.card-3-img-top{
+    width: 110px;
+    text-align:center;
+    margin: auto;
+}
+.card-text-2{
+    padding-left: 13px;
+    padding-top: 45px;
+}
+.active{
+    padding-top: 50px;
+}
+.heading2{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-weight: 900;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.aboutBy{
+    color: #b3b3b3;;
+
+}
+.quotes{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    height: 80vh;
+
+}
+.buttons{
+    color:  green;
+    background-color: transparent;
+    padding-left: 10px;
+}
+.butten-main{
+    padding-bottom: 3em;
+}
+.img-box{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.img-con{
+    color: #969090;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.about-con{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right, #445f86, #969090);
+    min-height: 100px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 50px 0 0;
+}
+footer .social-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+
+footer .social-icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social-icon li a:hover{
+    transform: translateY(-10px);
+}
+.foot-about{
+    list-style: none;
+}
+.Features-about2{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+}
+.Features-about{
+    text-decoration: none;
+    color: #fff;
+}
+.copy-right{
+    color: #969090;
+}
+@media (min-width:480px) {
+    .condent h1{
+        font-size: 60px;
+    }
+    .quotes{
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 700;
+    }
+    .about-con{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+}
